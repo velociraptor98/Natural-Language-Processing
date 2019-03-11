@@ -1,2 +1,2 @@
 # Natural-Language-Processing
-just some nlp stuff
+just some nlp algorithms using nltk
