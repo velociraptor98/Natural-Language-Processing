@@ -1,0 +1,7 @@
+While it isn’t obvious, I think much of software architecture is about that learning phase. Loading code into neurons is so painfully slow that it pays to find strategies to reduce the volume of it. This book has an entire section on decoupling patterns, and a large chunk of Design Patterns is about the same idea.
+
+You can define “decoupling” a bunch of ways, but I think if two pieces of code are coupled, it means you can’t understand one without understanding the other. If you de-couple them, you can reason about either side independently. That’s great because if only one of those pieces is relevant to your problem, you just need to load it into your monkey brain and not the other half too.
+
+To me, this is a key goal of software architecture: minimize the amount of knowledge you need to have in-cranium before you can make progress.
+
+The later stages come into play too, of course. Another definition of decoupling is that a change to one piece of code doesn’t necessitate a change to another. We obviously need to change something, but the less coupling we have, the less that change ripples throughout the rest of the game.
